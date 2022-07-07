@@ -1,6 +1,6 @@
 # Conduit Blog Backend Test Sample
 
-> The purpose of this project is to demonstrate an automated test of backend. Application under test: https://react-redux.realworld.io/
+> Sample automated test of backend. Application under test: https://react-redux.realworld.io/
 
 ### Table of contents
 - [📝 Approaches](#-approaches)
