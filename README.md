@@ -1,6 +1,6 @@
 # Conduit Blog Backend Test Sample
 
-> The purpose of this project is to demonstrate an automated test of backend.
+> The purpose of this project is to demonstrate an automated test of backend. Application under test: https://react-redux.realworld.io/
 
 ### Table of contents
 - [📝 Approaches](#-approaches)
@@ -46,6 +46,7 @@ backend
 
 - [Java 17](https://www.oracle.com/java/technologies/javase/jdk17-archive-downloads.html)
 - [Gradle](https://gradle.org/)
+- You must have created a user in the application: https://react-redux.realworld.io/
 
 ### 💻 How to run in your local machine
 
@@ -59,7 +60,14 @@ git clone https://github.com/jonatask/conduit-blog-backend-test-sample.git
 
 Expected result: A folder named _conduit-blog-backend-test-sample_ just has been downloaded.
 
-2. Via terminal, open the just downloaded folder and run the tests:
+2. Copy the file .env.example naming the new file .env
+```sh
+cp .env.example .env
+```
+
+3. Edit the .env and add the environment variables according to the user you created in the application.
+
+4. Via terminal, open the just downloaded folder and run the tests:
 
 ```sh
 gradle test
@@ -67,4 +75,4 @@ gradle test
 
 Expected result: BUILD SUCCESSFUL
 
-3. Open the test report located in: _build/reports/tests/test/index.html_
+5Open the test report located in: _build/reports/tests/test/index.html_
